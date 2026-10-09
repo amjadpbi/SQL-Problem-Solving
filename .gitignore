@@ -1,0 +1,60 @@
+# SQL Development Ignore Rules
+
+This repository is intended for SQL practice and query development. The following files and patterns are ignored to avoid committing secrets, local database state, or editor artifacts.
+
+# Secrets and credentials
+.env
+.env.*
+.env.local
+.env.*.local
+*.env
+config.ini
+config.json
+credentials.json
+secrets.json
+connection.json
+connection*.json
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.ppk
+
+# Database and local state
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.backup
+*.dump
+*.sql.gz
+*.zip
+*.tar.gz
+*.log
+
+# Temporary SQL files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Local editor artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python tooling
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Node tooling (if used later)
+node_modules/
+package-lock.json
+
+# OS files
+desktop.ini
