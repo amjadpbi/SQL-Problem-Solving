@@ -1,0 +1,42 @@
+-- Problem: SQL[XX]
+-- Title: 
+-- Source URL: 
+-- Company: 
+-- SQL dialect: PostgreSQL / MySQL / SQL Server / SQLite / Other
+--
+-- Problem statement:
+--
+--
+-- Tables and columns involved:
+--
+--
+-- ============================================================================
+-- My first attempt:
+-- Write your initial query below. This captures your first instinct and 
+-- reasoning. If it doesn't work, leave it here and iterate below.
+--
+-- SELECT ...
+--
+--
+-- ============================================================================
+-- Final solution:
+-- Write the corrected query below. This should be the query that produces
+-- the correct result after testing and debugging.
+--
+-- SELECT ...
+--
+--
+-- ============================================================================
+-- Alternative approach (optional):
+-- If you discovered a different way to solve this problem, document it here.
+-- This might be a more efficient approach or a different SQL pattern.
+--
+-- SELECT ...
+--
+--
+-- ============================================================================
+-- What I learned:
+-- Explain the gap between your first attempt and the final solution.
+-- What SQL concept or technique did you practice?
+-- Why did your first approach fail? What was the key insight?
+--
