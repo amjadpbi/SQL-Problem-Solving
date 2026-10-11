@@ -47,7 +47,23 @@ WITH distinct_users AS (
 -- SELECT ...
 --
 -- Alternative approach (optional):
---
+
+-- Alternative approach using subqueries
+
+SELECT
+    f.user_id,
+    (COUNT(f.follower_id) * 100.0) /
+    (
+        SELECT COUNT(*)
+        FROM (
+            SELECT user_id FROM famous
+            UNION
+            SELECT follower_id FROM famous
+        ) AS distinct_users
+    ) AS famous_percentage
+FROM famous f
+GROUP BY f.user_id;
+
 -- SELECT ...
 --
 -- What I learned:
